@@ -5,6 +5,7 @@ $color-mid: #901CAD;
 $color-dark: #60106b;
 $color-white: white;
 $color-black-transparent: rgba(0, 0, 0, 0.5);
+$color-teal: #17A2B8;
 
 $body-font: "Open Sans", sans-serif;
 $header-font: "Lobster", cursive;
@@ -62,4 +63,25 @@ header {
 
 .carousel {
     border: solid $color-secondary;
+}
+
+#carouselButton {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: 100;
+}
+
+#loginModal {
+    .modal-header {
+        color: $color-white;
+        background-color: $color-mid;
+    }
+}
+
+#reserveModal {
+    .modal-header {
+        color: $color-white;
+        background-color: $color-teal;
+    }
 }
