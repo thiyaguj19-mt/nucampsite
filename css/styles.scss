@@ -72,14 +72,14 @@ header {
     z-index: 100;
 }
 
-#loginButton {
+#loginModal {
     .modal-header {
         color: $color-white;
         background-color: $color-mid;
     }
 }
 
-#reserveButton {
+#reserveModal {
     .modal-header {
         color: $color-white;
         background-color: $color-teal;
